@@ -60,3 +60,17 @@
 .fa-house {
   color: #331258;
 }
+
+.custom-form {
+  border: 2px solid #331258; /* Substitua pelo código de cor desejado */
+  background-color: #EEEEEE; /* Substitua pelo código de cor desejado */
+  padding: 20px; /* Adicione algum preenchimento interno */
+  border-radius: 10px; /* Adicione bordas arredondadas, se desejar */
+}
+
+.card {
+    border: 2px solid #331258; /* Substitua pelo código de cor desejado */
+    background-color: #EEEEEE; /* Substitua pelo código de cor desejado */
+    padding: 20px; /* Adicione algum preenchimento interno */
+    border-radius: 10px; /* Adicione bordas arredondadas, se desejar */
+  }
