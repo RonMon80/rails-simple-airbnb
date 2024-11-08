@@ -30,4 +30,29 @@
   color: #331258;
 }
 
-331258
+.card {
+  min-height: 200px; /* Ajuste a altura mínima conforme necessário */
+  max-height: 250px; /* Ajuste a altura máxima conforme necessário */
+  border-radius: 2%;
+}
+
+.card-text {
+  max-height: 30px; /* Ajuste conforme necessário */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limita o texto a 3 linhas */
+  -webkit-box-orient: vertical;
+}
+
+.index-background {
+  background-color:#e1d8e6 ;
+}
+
+.icon-spacing {
+  margin-right: 5px; /* Ajuste o valor conforme necessário */
+}
+
+.icon-group-spacing {
+  margin-left: 15px; /* Ajuste o valor conforme necessário */
+}
