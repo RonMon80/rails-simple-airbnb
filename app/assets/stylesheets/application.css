@@ -13,5 +13,19 @@
  *= require_tree .
  *= require_self
  */.navbar {
-  background-color: #E4E0E1;
+  background-color: #D4BEE4;
  }
+
+ .custom-button {
+  background-color: #6F2CF4;
+  color: white;
+}
+
+.custom-button:hover {
+  background-color: #331258;
+  color: white;
+}
+
+.custom-navbar-brand {
+  color: #331258;
+}
