@@ -13,19 +13,21 @@
  *= require_tree .
  *= require_self
  */.navbar {
-  background-color: #D4BEE4;
+  background-color: #EEEEEE;
  }
 
  .custom-button {
-  background-color: #6F2CF4;
+  background-color: #331258;
   color: white;
 }
 
 .custom-button:hover {
-  background-color: #331258;
+  background-color: #6F2CF4;
   color: white;
 }
 
 .custom-navbar-brand {
   color: #331258;
 }
+
+331258
