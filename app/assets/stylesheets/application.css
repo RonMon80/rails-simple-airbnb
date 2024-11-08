@@ -74,3 +74,39 @@
     padding: 20px; /* Adicione algum preenchimento interno */
     border-radius: 10px; /* Adicione bordas arredondadas, se desejar */
   }
+
+  .custom-card-footer {
+    background-color: #331258; /* Substitua pelo código de cor desejado */
+    border-radius: 10px;
+  }
+
+  .custom-card-footer:hover {
+    background-color: #6F2CF4;
+    color: white;
+  }
+  
+  .custom-link {
+    text-decoration: none;
+    color: #EEEEEE; /* Substitua pelo código de cor desejado */
+  }
+
+  .custom-link:hover {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #EEEEEE; /* Substitua pelo código de cor desejado */
+  }
+  
+.h1-index {
+    color: #331258; /* Substitua pelo código de cor desejado */
+}
+
+.card-text {
+  color: #331258;
+}
+
+.card-title {
+  color: #6F2CF4;
+}
+
+.icons {
+  color: #331258;
+}
