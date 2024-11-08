@@ -12,11 +12,13 @@
  *
  *= require_tree .
  *= require_self
- */.navbar {
-  background-color: #EEEEEE;
- }
+ */
 
- .custom-button {
+ .navbar {
+  background-color: #EEEEEE;
+}
+
+.custom-button {
   background-color: #331258;
   color: white;
 }
@@ -28,6 +30,12 @@
 
 .custom-navbar-brand {
   color: #331258;
+  text-decoration: none;
+}
+
+.custom-navbar-brand:hover {
+  color: #6F2CF4;
+  text-decoration: none;
 }
 
 .card {
@@ -46,7 +54,7 @@
 }
 
 .index-background {
-  background-color:#e1d8e6 ;
+  background-color: #e1d8e6;
 }
 
 .icon-spacing {
@@ -57,10 +65,6 @@
   margin-left: 15px; /* Ajuste o valor conforme necessário */
 }
 
-.fa-house {
-  color: #331258;
-}
-
 .custom-form {
   border: 2px solid #331258; /* Substitua pelo código de cor desejado */
   background-color: #EEEEEE; /* Substitua pelo código de cor desejado */
@@ -69,34 +73,34 @@
 }
 
 .card {
-    border: 2px solid #331258; /* Substitua pelo código de cor desejado */
-    background-color: #EEEEEE; /* Substitua pelo código de cor desejado */
-    padding: 20px; /* Adicione algum preenchimento interno */
-    border-radius: 10px; /* Adicione bordas arredondadas, se desejar */
-  }
+  border: 2px solid #331258; /* Substitua pelo código de cor desejado */
+  background-color: #EEEEEE; /* Substitua pelo código de cor desejado */
+  padding: 20px; /* Adicione algum preenchimento interno */
+  border-radius: 10px; /* Adicione bordas arredondadas, se desejar */
+}
 
-  .custom-card-footer {
-    background-color: #331258; /* Substitua pelo código de cor desejado */
-    border-radius: 10px;
-  }
+.custom-card-footer {
+  background-color: #331258; /* Substitua pelo código de cor desejado */
+  border-radius: 10px;
+}
 
-  .custom-card-footer:hover {
-    background-color: #6F2CF4;
-    color: white;
-  }
-  
-  .custom-link {
-    text-decoration: none;
-    color: #EEEEEE; /* Substitua pelo código de cor desejado */
-  }
+.custom-card-footer:hover {
+  background-color: #6F2CF4;
+  color: white;
+}
 
-  .custom-link:hover {
-    text-decoration: none; /* Remove o sublinhado */
-    color: #EEEEEE; /* Substitua pelo código de cor desejado */
-  }
-  
+.custom-link {
+  text-decoration: none;
+  color: #EEEEEE; /* Substitua pelo código de cor desejado */
+}
+
+.custom-link:hover {
+  text-decoration: none; /* Remove o sublinhado */
+  color: #EEEEEE; /* Substitua pelo código de cor desejado */
+}
+
 .h1-index {
-    color: #331258; /* Substitua pelo código de cor desejado */
+  color: #331258; /* Substitua pelo código de cor desejado */
 }
 
 .card-text {
