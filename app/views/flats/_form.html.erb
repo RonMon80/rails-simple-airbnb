@@ -1,6 +1,6 @@
 <form>
   <fieldset>
-    <h2 class="p-4">Add a new Flat</h2>
+    <h2 class="h2-form">Add a new Flat</h2>
     <div class="mb-3">
       <label for="name" class="form-label">Name</label>
       <input type="text" id="name" class="form-control">
@@ -16,18 +16,21 @@
       <textarea id="description" class="form-control" rows="5"></textarea>
     </div>
 
-    <div class="mb-3">
-      <label for="number_of_guests" class="form-label">Number of Guests</label>
-      <input type="text" id="number_of_guests" class="form-control">
+    <div class="d-flex justify-content-between mb-3">
+      <div class="me-2 flex-grow-1">
+        <label for="Number of guests" class="form-label">Number of Guests</label>
+        <input type="text" id="Number of guests" class="form-control">
+      </div>
+
+      <div class="flex-grow-1">
+        <label for="price_per_night" class="form-label">Price per Night</label>
+        <input type="text" id="price_per_night" class="form-control">
+      </div>
     </div>
 
-    <div class="mb-3">
-      <label for="price_per_night" class="form-label">Price per Night</label>
-      <input type="text" id="price_per_nigth" class="form-control">
+    <div class="d-flex justify-content-between">
+      <button type="submit" class="create-button">Create Flat</button>
+      <%= link_to 'Cancel', flats_path, class: 'cancel-button' %>
     </div>
-
-    
-
-    <button type="submit" class="btn btn-primary">Submit</button>
   </fieldset>
 </form>

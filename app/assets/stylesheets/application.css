@@ -13,12 +13,7 @@
  *= require_tree .
  *= require_self
  */
-
- .navbar {
-  background-color: #EEEEEE;
-}
-
-.custom-button {
+ .custom-button {
   background-color: #331258;
   color: white;
 }
@@ -26,6 +21,39 @@
 .custom-button:hover {
   background-color: #6F2CF4;
   color: white;
+}
+
+.create-button {
+  background-color: #331258; /* Substitua pelo código de cor desejado */
+  color: white;
+  border: none; /* Remove a borda */
+  padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
+  border-radius: 5px; /* Adicione bordas arredondadas */
+  cursor: pointer;
+}
+
+.create-button:hover {
+  background-color: #6F2CF4; /* Cor desejada para o hover */
+}
+
+.cancel-button {
+  background-color: #331258; /* Substitua pelo código de cor desejado */
+  color: white;
+  border: none; /* Remove a borda */
+  padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
+  border-radius: 5px; /* Adicione bordas arredondadas */
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cancel-button:hover {
+  background-color: #6F2CF4;
+  color: white;
+  text-decoration: none;
+}
+
+ .navbar {
+  background-color: #EEEEEE;
 }
 
 .custom-navbar-brand {
@@ -103,6 +131,14 @@
   color: #331258; /* Substitua pelo código de cor desejado */
 }
 
+.h2-form {
+  color:#331258;
+}
+
+.form-label {
+  color: #6F2CF4;
+}
+
 .card-text {
   color: #331258;
 }
@@ -113,4 +149,8 @@
 
 .icons {
   color: #331258;
+}
+
+.form-control {
+  border-color: #331258;
 }
