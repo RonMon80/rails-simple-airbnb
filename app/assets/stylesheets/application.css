@@ -13,144 +13,71 @@
  *= require_tree .
  *= require_self
  */
- /* .custom-button {
-  background-color: #331258;
-  color: white;
+ .flex {
+  display: flex;
+}
+.flex-align {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.custom-button:hover {
-  background-color: #6F2CF4;
-  color: white;
+.flat-card {
+  width: 100%;
+  position: relative;
+  margin: .5rem 0 1rem 0;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
 
-.create-button {
-  background-color: #331258; /* Substitua pelo código de cor desejado */
-  color: white;
-  border: none; /* Remove a borda */
-  padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
-  border-radius: 5px; /* Adicione bordas arredondadas */
-  cursor: pointer;
+.flat-card-image {
+  height: 180px;
+  background-position: center;
+  background-size: cover;
 }
 
-.create-button:hover {
-  background-color: #6F2CF4; /* Cor desejada para o hover */
+.flat-card-content {
+  padding: 24px;
+  background-color: #F8F9FA;
 }
 
-.cancel-button {
-  background-color: #331258; /* Substitua pelo código de cor desejado */
-  color: white;
-  border: none; /* Remove a borda */
-  padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
-  border-radius: 5px; /* Adicione bordas arredondadas */
-  cursor: pointer;
-  text-decoration: none;
+.flat-card-actions {
+  position: relative;
+  background-color: inherit;
+  border-top: 1px solid rgba(160,160,160,0.2);
+  padding: 16px 24px;
 }
 
-.cancel-button:hover {
-  background-color: #6F2CF4;
-  color: white;
-  text-decoration: none;
+.flat-form {
+  background-color: #F8F9FA;
+  padding: 24px;
+  border-radius: 3px;
 }
 
- .navbar {
-  background-color: #EEEEEE;
+.flat-show-card {
+  background: #F8F9FA;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  border-radius: 3px;
 }
 
-.custom-navbar-brand {
-  color: #331258;
-  text-decoration: none;
+.map {
+  height: 350px;
+  background-position: center;
+  background-size: cover;
 }
 
-.custom-navbar-brand:hover {
-  color: #6F2CF4;
-  text-decoration: none;
+.margin-top-negative {
+  margin-top: -75px;
+}
+.no-mb {
+  margin-bottom: 0;
 }
 
-.card {
-  min-height: 200px; /* Ajuste a altura mínima conforme necessário */
-  max-height: 250px; /* Ajuste a altura máxima conforme necessário */
-  border-radius: 2%;
+.flat-show-address {
+  font-weight: 300;
+  font-size: 20px;
+  color: #333;
 }
-
-.card-text {
-  max-height: 30px; /* Ajuste conforme necessário */
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  line-clamp: 3; /* Limita o texto a 3 linhas */
-  -webkit-box-orient: vertical;
-}
-
-.index-background {
-  background-color: #e1d8e6;
-}
-
-.icon-spacing {
-  margin-right: 5px; /* Ajuste o valor conforme necessário */
-}
-
-.icon-group-spacing {
-  margin-left: 15px; /* Ajuste o valor conforme necessário */
-}
-
-.custom-form {
-  border: 2px solid #331258; /* Substitua pelo código de cor desejado */
-  background-color: #EEEEEE; /* Substitua pelo código de cor desejado */
-  padding: 20px; /* Adicione algum preenchimento interno */
-  border-radius: 10px; /* Adicione bordas arredondadas, se desejar */
-}
-
-.card {
-  border: 2px solid #331258; /* Substitua pelo código de cor desejado */
-  background-color: #EEEEEE; /* Substitua pelo código de cor desejado */
-  padding: 20px; /* Adicione algum preenchimento interno */
-  border-radius: 10px; /* Adicione bordas arredondadas, se desejar */
-}
-
-.custom-card-footer {
-  background-color: #331258; /* Substitua pelo código de cor desejado */
-  border-radius: 10px;
-}
-
-.custom-card-footer:hover {
-  background-color: #6F2CF4;
-  color: white;
-}
-
-.custom-link {
-  text-decoration: none;
-  color: #EEEEEE; /* Substitua pelo código de cor desejado */
-}
-
-.custom-link:hover {
-  text-decoration: none; /* Remove o sublinhado */
-  color: #EEEEEE; /* Substitua pelo código de cor desejado */
-}
-
-.h1-index {
-  color: #331258; /* Substitua pelo código de cor desejado */
-}
-
-.h2-form {
-  color:#331258;
-}
-
-.form-label {
-  color: #6F2CF4;
-}
-
-.card-text {
-  color: #331258;
-}
-
-.card-title {
-  color: #6F2CF4;
-}
-
-.icons {
-  color: #331258;
-}
-
-.form-control {
-  border-color: #331258;
-} */
