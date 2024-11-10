@@ -1,3 +1,3 @@
 class Flat < ApplicationRecord
-  validates :names, presence: true
+  validates :name, presence: true
 end
