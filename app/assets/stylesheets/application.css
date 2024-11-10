@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
- .custom-button {
+ /* .custom-button {
   background-color: #331258;
   color: white;
 }
@@ -153,4 +153,4 @@
 
 .form-control {
   border-color: #331258;
-}
+} */
